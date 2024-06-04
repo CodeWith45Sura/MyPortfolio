@@ -1,108 +1,101 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-body{
-    background-color:#080808;
-    margin: 8rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
+body {
+  background-color: #080808;
+  margin: 8rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 .header {
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
 }
-.header h2{
-    color: #fff;
-    font-size: 2rem;
-    font-weight: 600;
-    align-items: center;
-    justify-content: center;
-
+.header h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
 }
 
-
-.container{
-    padding: 2rem 1.7rem;
-width: 100%;
-}
-.card{
-display: grid;
-grid-template-columns: repeat(2,1fr);
-grid-gap: 2rem;
-border-radius: 10px;
-margin-top: 40px;
-background-color: #262626;
-
+.container {
+  padding: 2rem 1.7rem;
+  width: 100%;
 }
 
-.card img{
-    width: 100%;
-    height: 500px;
-    aspect-ratio: 3/2;
-    object-fit:fill;
-    justify-content: center;
-}
-.card div{
-    color: #fff;
-    margin-top: 20px;
-    padding: 20px 20px;
-    
-}
-.card div p{
-    font-size: 1.2rem;
-    margin-top: 20px;
-}
-.card div h3{
-    font-size: 2rem;
-    font-weight: 600;
-    transition: 0.5s;
-    margin-left: 50px;
-}
-.card div h3:hover{
-    color: #ff004f;
-}
-.card div button{
-    margin: 50px;
-    height: 40px;
-    width: 200px;
-    background-color: #ff004f;
-    border: none;
-    border-radius: 10px;
-    padding: 7px 7px;
-    transition: transform 0.5s;
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  border-radius: 10px;
+  margin-top: 40px;
+  background-color: #262626;
 }
 
-.card div button:hover{
-    background-color:goldenrod   ;
-    transform: translateY(-10px);
-    
+.card img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  justify-content: center;
+}
+.card div {
+  color: #fff;
+  margin-top: 20px;
+  padding: 20px 20px;
+}
+.card div p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+.card div h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  transition: 0.5s;
+  margin-left: 50px;
+}
+.card div h3:hover {
+  color: #ff004f;
+}
+.card div button {
+  margin: 50px;
+  height: 40px;
+  width: 200px;
+  background-color: #ff004f;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 7px;
+  transition: transform 0.5s;
 }
 
-.card div button a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2rem;
+.card div button:hover {
+  background-color: goldenrod;
+  transform: translateY(-10px);
 }
 
+.card div button a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
 
-@media only screen and (max-width: 600px){
-body{
+@media only screen and (max-width: 600px) {
+  body {
     margin: 0.2rem;
-}
+  }
 
-.card{
+  .card {
     display: block;
-}
+  }
 
-.card img{
-        object-fit: contain;
+  .card img {
+    object-fit: contain;
     padding-top: 17px;
-}
+  }
 }
